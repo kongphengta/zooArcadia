@@ -1,0 +1,117 @@
+<!-- tarifs.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarifs - Zoo Arcadia</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- En-tête -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.png" alt="Logo Zoo Arcadia" width="30" height="30" class="d-inline-block align-text-top">
+                    Zoo Arcadia
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="animaux.html">Animaux</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="evenements.html">Événements</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="tarifs.html">Tarifs <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reservation.html">Réservation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section Tarifs et Horaires -->
+    <section id="tarifs" class="container mt-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2>Tarifs et Horaires</h2>
+                <p>Trouvez toutes les informations sur les tarifs et les horaires d'ouverture du Zoo Arcadia.</p>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h3>Tarifs</h3>
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Adulte
+                        <span class="badge badge-primary badge-pill">15€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Enfant (4-12 ans)
+                        <span class="badge badge-primary badge-pill">8€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Senior (60+ ans)
+                        <span class="badge badge-primary badge-pill">10€</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Famille (2 adultes + 2 enfants)
+                        <span class="badge badge-primary badge-pill">45€</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Horaires</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <strong>Lundi au Dimanche:</strong> 9h - 18h
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Mercredi:</strong> 9h - 20h (Ouverture spéciale)
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Jour férié:</strong> 10h - 17h
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12 text-center">
+                <a href="reservation.html" class="btn btn-success">Réserver maintenant</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de Page -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2023 Zoo Arcadia. Tous droits réservés.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/zooarcadia" target="_blank"><img src="assets/images/facebook.png" alt="Facebook" width="24" height="24"></a>
+                <a href="https://www.instagram.com/zooarcadia" target="_blank"><img src="assets/images/instagram.png" alt="Instagram" width="24" height="24"></a>
+                <a href="https://www.twitter.com/zooarcadia" target="_blank"><img src="assets/images/twitter.png" alt="Twitter" width="24" height="24"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
