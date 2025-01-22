@@ -65,5 +65,10 @@ Ouvrez le navigateur et aller à `http://localhost/zooArcadia`
 - **jQuery** : Bibliothèque JavaScript pour des interactions simplifiées.
 - **Node.js** : Gestion des dépendances et scripts de compilation SASS.  
 
+## Licence
+
+Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.  
+ 
+
 
 
